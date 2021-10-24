@@ -1,0 +1,40 @@
+name: BedWarsSquads
+api: 3.x.x
+version: 1.0.7
+main: vixikhd\BedWars\BedWars
+author: Dctxdev & ShadowBonnie
+description: a Advance plugin of BedWars Squads by dctxdev & shadowbonnie
+Update 1.0.0: Fixed bugs
+Update 1.0.1: Fixed bugs
+Update 1.0.2: added autobridge in math and fixed leaderboard
+Update 1.0.3: Really nothing
+Update 1.0.4: improvement in leaderboard
+Update 1.0.5: Shadow Bonnie fixs tons of bugs
+Update 1.0.6: Fixed plugin not working
+
+permissions:
+  bwsd.cmd:
+    description: Permission to all Bedwars commands
+    default: op
+    children:
+      bwsd.cmd.help:
+        description: Permission for /bwsd help
+        default: op
+      bwsd.cmd.create:
+        description: Permission for /bwsd create
+        default: op
+      bwsd.cmd.remove:
+        description: Permission for /bwsd remove
+        default: op
+      bwsd.cmd.set:
+        description: Permission for /bwsd set
+        default: op
+      bwsd.cmd.arenas:
+        description: Permission for /bwsd arenas
+        default: op
+      bwsd.cmd.test:
+        description: Permission for /bwsd test
+        default: op
+      bwsd.cmd.stoptest:
+        description: Permission for /bwsd stoptest
+        defaut: op
