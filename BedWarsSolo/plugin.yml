@@ -1,0 +1,40 @@
+name: BedWarsSolo
+api: 3.x.x
+version: 1.0.6
+main: vixikhd\BedWarsSolo\BedWars
+author: DctxDev & ShadowBonnie
+description: A advance version of BedWarsSolo by dctxdev & shadowbonnie
+Update 1.0.0 : Nothing
+Update 1.0.1 : added a test autobridge in maths
+Update 1.0.2 : fixed bugs
+Update 1.0.3 : Fixed glitchs
+Update 1.0.4 : Fixed Internal error crash
+Update 1.0.5 : Fixed some errors and bugs
+Update 1.0.6 : Fixed addxp when done killing player
+  
+permissions:
+  bws.cmd:
+    description: Permission to all SkyWars commands
+    default: op
+    children:
+      bws.cmd.help:
+        description: Permission for /bws help
+        default: op
+      bws.cmd.create:
+        description: Permission for /bws create
+        default: op
+      bws.cmd.remove:
+        description: Permission for /bws remove
+        default: op
+      bws.cmd.set:
+        description: Permission for /bws set
+        default: op
+      bws.cmd.arenas:
+        description: Permission for /bws arenas
+        default: op
+      bws.cmd.test:
+        description: Permission for /bws test
+        default: op
+      bws.cmd.stoptest:
+        description: Permission for /bws stoptest
+        default: op

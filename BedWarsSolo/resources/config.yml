@@ -1,0 +1,6 @@
+# WaterDog proxy support
+waterdog:
+  # Enable if you want connect player to random arena on join
+  enabled: false
+  # Player will be reconnected to this server when he wants to leave the arena.
+  lobbyServer: Lobby-2
