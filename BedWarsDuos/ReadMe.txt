@@ -1,1 +1,0 @@
-# Copyright 2020 - 2021 THE DCTX TEAM
